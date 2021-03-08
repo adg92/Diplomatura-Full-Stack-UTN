@@ -1,0 +1,30 @@
+body {
+    padding: 10px;
+    color: yellow;
+    text-align:  center;
+    background-image: url(ser2.jpg);
+}
+
+h1 {
+    font-size: 45px;
+    text-align: left;
+}
+
+table {
+    width: 800px;
+    border: 2px black;
+}
+
+th {
+    font-size: 30;
+}
+
+td {
+    height: 30px;
+    border-top: 1px solid grey;
+    border-right: 1px solid lightgrey;
+}
+
+tr {
+    font-size: 20px;
+    text-align: center;
