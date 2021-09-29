@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de registro</title>
+  </head>
+  <body>
+    <h1>Formulario de registro</h1>
+    <div>
+      <form action="/procesar" method="POST">
+        <div>
+          <label for="firstname">Nombre:</label>
+          <input type="text" id="firstname" name="firstname" required />
+        </div>
+        <div>
+          <label for="lastname">Apellido:</label>
+          <input type="text" id="lastname" name="lastname" required />
+        </div>
+        <div>
+          <label for="age">Edad:</label>
+          <input type="number" name="age" id="age" min="1" max="100" required />
+        </div>
+        <div>
+          <label for="phonenumber">Teléfono celular:</label>
+          <input type="tel" name="phonenumber" id="phonenumber" required />
+        </div>
+        <div>
+          <label for="nacionalidad">País de nacimiento:</label>
+          <input type="text" id="nacionalidad" name="nacionalidad" required />
+        </div>
+        <div>
+          <label for="residencia">País de residencia:</label>
+          <input type="text" id="residencia" name="residencia" required />
+        </div>
+        <div>
+          <input type="submit" value="Enviar formulario" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

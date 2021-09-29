@@ -1,0 +1,38 @@
+body{
+    background: aquamarine;
+}
+#div1{
+    background-color: #FF0000;
+    width: 200px;
+    height: 200px;
+}
+#div2{
+    background-color: #FF0033;
+    width: 200px;
+    height: 200px;
+}
+#div3{
+    background-color: #FF0066;
+    width: 200px;
+    height: 200px;
+}
+#div4{
+    background-color: #FF0099;
+    width: 200px;
+    height: 200px;
+}
+#div5{
+    background-color: #FF00CC;
+    width: 200px;
+    height: 200px;
+}
+#div6{
+    background-color: #FF00FF;
+    width: 200px;
+    height: 200px;
+}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    padding-bottom: 25px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito de compra tp6</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Carrito de compras</h1>
+    <h2>Elige los productos para agregar al carrito</h2>
+
+    <form action="script.js" method="post">
+      <div>
+        <select name="lista" id="lista">
+          <!-- Los option del select se generan dinámicamente con js. -->
+        </select>
+      </div>
+      <div>
+        <button class="agregar" form="lista" onClick="carrito()">
+          Agregar este producto al carrito
+        </button>
+      </div>
+      <div>
+        <button class="comprar" form="lista" onClick="calcular()">
+          Comprar
+        </button>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

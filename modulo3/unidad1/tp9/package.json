@@ -1,0 +1,14 @@
+{
+  "name": "tp9",
+  "version": "1.0.0",
+  "description": "Tp9 de la diplomatura de FullStack UTN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Peirone \\ <marcos.peirone22@gmail.com\\>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

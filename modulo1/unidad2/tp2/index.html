@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo práctico 2: Tipos de input prueba server</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Tipos de input</h2>
+    <table>
+        <tr>
+        <th>Input Type</th>
+        <th>Descripción</th>
+        <th>Ejemplo</th>
+        </tr>
+        <tr>
+        <td>Input Type Text</td>
+        <td>Crea un campo de texto de una sola línea</td>
+        <td><input type="text" id="name" name="name" value="Marcos"></td>
+        </tr>
+        <tr>
+            <td>Input Type Password</td>
+            <td>Crea un campo de contraseña</td>
+            <td><input type="password" id="pwd" name="pwd"></td>
+        </tr>
+        <tr>
+            <td>Input Type Submit</td>
+            <td>Crea un botón para enviar el formulario para su procesamiento en el backend</td>
+            <td><input type="submit" value="Enviar"></td>
+        </tr>
+        <tr>
+            <td>Input Type Reset</td>
+            <td>Crea un botón para limpiar el contenido de los campos del formulario</td>
+            <td><input type="reset"></td>
+        </tr>
+        <tr>
+            <td>Input Type Radio</td>
+            <td>Crea un botón de radio. Los botones de radio permiten al usuario seleccionar <strong> solo una</strong> de un número limitado de opciones</td>
+            <td>  <input type="radio" id="male" name="gender" value="hombre">
+                  <label for="male">Hombre</label><br>
+                  <input type="radio" id="female" name="gender" value="mujer">
+  <label for="female">Mujer</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Type Checkbox</td>
+            <td>Crea una casilla de verificación (checkbox). Permite seleccionar una o más opciones de una cantidad limitada de opciones</td>
+            <td>
+                  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bicicleta">
+  <label for="vehicle1"> Tengo una bicicleta</label>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Auto">
+  <label for="vehicle2"> Tengo un auto</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Input Type Button</td>
+            <td>Crea un botón</td>
+            <td><input type="button" onclick="alert('Well!')" value="Click aquí"></td>
+        </tr>
+        <tr>
+            <td>Input Type Color</td>
+            <td>Se usa para campos de entrada que contienen colores</td>
+            <td>  <label for="favcolor">Elige tu color favorito:</label>
+                  <input type="color" id="favcolor" name="favcolor"></td>
+        </tr>
+        <tr>
+            <td>Input Type Date</td>
+            <td>Se utiliza para campos de entrada que contienen fechas</td>
+            <td>
+                  <label for="birthday">¿Cuál es tu cumpleaños?</label>
+  <input type="date" id="birthday" name="birthday">
+            </td>
+        </tr>
+        <tr>
+            <td>Input Type Datetime-local</td>
+            <td>Crea un campo de entrada de fecha y hora sin zona horaria</td>
+            <td>
+                  <label for="birthdaytime">Cumpleaños (fecha y hora):</label>
+  <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            </td>
+        </tr>
+        <tr>
+            <td>Input Type Email</td>
+            <td>Crea un campo de entrada de email</td>
+            <td>
+                  <label for="email">Introduce tu email:</label>
+  <input type="email" id="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td>Input Type File</td>
+            <td>Crea un campo para seleccionar y cargar archivos</td>
+            <td>
+                  <label for="myfile">Selecciona un archivo:</label>
+  <input type="file" id="myfile" name="myfile">
+            </td>
+        </tr>
+        <tr>
+            <td>Input Type Month</td>
+            <td>Crea campos de entrada de mes y año</td>
+            <td>
+                  <label for="bdaymonth">Cumpleaños (mes y año):</label>
+  <input type="month" id="bdaymonth" name="bdaymonth">
+            </td>
+        </tr>
+        <tr>
+            <td>Input Type Number</td>
+            <td>Crea un campo de entrada de solo números</td>
+            <td>
+                  <label for="quantity">Cantidad (entre 1 y 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5">
+            </td>
+        </tr>
+        <tr>
+            <td>Input Type Range</td>
+            <td>Define un control para ingresar un número cuyo valor exacto no es importante. El rango predeterminado es de 0 a 100. Sin embargo, se pueden establecer restricciones sobre los números que se aceptan con los atributos mínimo(min), máximo(max)
+                y de paso(step).</td>
+                <td>
+                      <label for="vol">Volumen (entre 0 y 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+                </td>
+        </tr>
+        <tr>
+        <td>Input Type Search</td>
+        <td>Crea un campo de búsqueda</td>
+        <td>
+              <label for="gsearch">Buscar:</label>
+  <input type="search" id="gsearch" name="gsearch">
+        </td>
+    </tr>
+    <tr>
+        <td>Input Type Tel</td>
+        <td>Crea un campo para introducir un número de teléfono</td>
+        <td>
+              <label for="phone">Introduce tu número de teléfono:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </td>
+    </tr>
+    <tr>
+        <td>Input Type Time</td>
+        <td>Crea un campo para seleccionar una hora</td>
+        <td>
+              <label for="appt">Elige una hora:</label>
+  <input type="time" id="appt" name="appt">
+        </td>
+    </tr>
+    <tr>
+        <td>Input Type Url</td>
+        <td>Crea un campo para introducir una URL</td>
+        <td>
+              <label for="homepage">Introduce tu sitio web:</label>
+  <input type="url" id="homepage" name="homepage">
+        </td>
+    </tr>
+    <tr>
+        <td>Input Type Week</td>
+        <td>Crea un campo para seleccionar semana y año</td>
+        <td>
+              <label for="week">Elige una semana:</label>
+  <input type="week" id="week" name="week">
+        </td>
+    </tr>
+    </table>
+    <h2>Restricciones de input</h2>
+    <table>
+        <tr>
+        <th>Atributo</th>
+        <th>Descripción</th>
+    </tr>
+    <tr>
+        <td>checked</td>
+        <td>Se usa en input type checkbox o type radio. El campo con este atributo aparecerá seleccionado automáticamente al cargar el formulario</td>
+    </tr>
+    <tr>
+        <td>disabled</td>
+        <td>El campo que contenga este atributo estará desactivado</td>
+            </tr>
+            <tr>
+                <td>max</td>
+                <td>Especifica el valor máximo para un campo de entrada</td>
+            </tr>
+            <tr>
+                <td>maxlength</td>
+                <td>Especifica el número máximo de caracteres para un campo de entrada</td>
+            </tr>
+            <tr>
+                <td>min</td>
+                <td>Especifíca el valor mínimo para un campo de entrada</td>
+            </tr>
+            <tr>
+                <td>pattern</td>
+                <td>Permite usar expresiones regulares para comparar el valor de un campo de entrada</td>
+            </tr>
+            <tr>
+                <td>readonly</td>
+                <td>Especifica un campo de entrada como solo lectura (no puede ser modificado)</td>
+            </tr>
+            <tr>
+                <td>required</td>
+                <td>El campo con este atributo es requerido (debe ser llenado)</td>
+            </tr>
+            <tr>
+                <td>size</td>
+                <td>Especifica el ancho (en caracteres) de un campo de entrada</td>
+            </tr>
+            <tr>
+                <td>step</td>
+                <td>Especifica los intervalos de números legales para un campo de entrada</td>
+            </tr>
+            <tr>
+                <td>value</td>
+                <td>Especifica el valor predeterminado para un campo de entrada</td>
+            </tr>
+    </table>
+</body>
+</html>

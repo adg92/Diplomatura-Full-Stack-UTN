@@ -1,0 +1,17 @@
+body {
+    background-color: #00FF00;
+}
+
+#container {
+    margin: 75px 350px 75px 350px;
+    width: 700px;
+    height: 700px;
+    background-color: yellow;
+    border: 25px solid tomato;
+}
+
+#flower {
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+}

@@ -1,0 +1,48 @@
+
+
+div {
+
+    margin: 15px;
+}
+
+
+.agregar {
+    background-color: orange;
+    border-radius: 8px;
+    margin: 0px 100px;
+}
+
+.comprar {
+    background-color: palegreen;
+    border-radius: 8px;
+    margin: 0px 165px;
+    transition: transform 0.3s ease-in-out 0.1s;
+}
+
+.comprar:hover {
+    transform: scale(1.2);
+}
+
+body{
+
+    background-image: url("Img/thumb-1920-190787.jpg");
+    margin: 15px auto;
+    text-align:center;
+    padding: 5px 25px ;
+}
+
+h1 {
+    margin: 0px 90px;
+}
+
+#lista {
+    margin: 0px 113px;
+    
+}
+
+
+
+
+
+
+
